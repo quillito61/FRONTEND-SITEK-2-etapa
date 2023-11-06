@@ -32,7 +32,7 @@ const Login: NextPage = () => {
     <>
       <Head>
         <title>
-          Login | Cia
+          Login | BM Supermercados
         </title>
       </Head>
       <Box
@@ -45,7 +45,7 @@ const Login: NextPage = () => {
         }}
       >
         <div>
-        <img style={{height: 400, width: `calc(100vw + 48px)` }} 
+        <img style={{height: 500, width: `calc(100vw + 48px)` }} 
         src='/static/guide-dap.png'/>
         <Container
           maxWidth="sm"
