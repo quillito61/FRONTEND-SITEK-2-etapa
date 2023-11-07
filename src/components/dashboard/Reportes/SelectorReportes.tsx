@@ -32,7 +32,7 @@ export const Tablereportes: FC<TableReportsProps> = (props) => {
     ...other
   } = props;
 
-  
+ 
   return (
 
   <Box
@@ -47,6 +47,7 @@ export const Tablereportes: FC<TableReportsProps> = (props) => {
       spacing={3}
     >
       {reports.map((reports) => (
+        
         <Grid
           item
           key={reports.REPORTE_DSC}
@@ -77,14 +78,14 @@ export const Tablereportes: FC<TableReportsProps> = (props) => {
                   color="textPrimary"
                   variant="h5"
                 >
-                  {reports.REPORTE_DSC + '  ' + reports.NOTAS}
+                  {reports.REPORTE_DSC + '  ' + reports.NOTAS }
                 </Link>
                 <Typography
                   color="textSecondary"
                   gutterBottom
                   variant="body2"
                 >
-                  {/* {reports.LINK} */}
+              
                   
                 </Typography>
                 <Button 
