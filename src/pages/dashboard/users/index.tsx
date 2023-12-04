@@ -158,18 +158,18 @@ const UserList: NextPage = () => {
                 mt: 3
               }}
             >
-              <Button
+              {/* <Button
                 startIcon={<UploadIcon fontSize="small" />}
                 sx={{ m: 1 }}
               >
-                Importar
+                
               </Button>
               <Button
                 startIcon={<DownloadIcon fontSize="small" />}
                 sx={{ m: 1 }}
               >
                 Exportar
-              </Button>
+              </Button> */}
             </Box>
           </Box>
           <Card>

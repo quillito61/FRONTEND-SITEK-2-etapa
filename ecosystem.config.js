@@ -5,7 +5,7 @@ module.exports = {
     args: "start", 
     watch: true,
     env: {
-      "PORT": 3000,
+      "PORT": 3500,
       "NODE_ENV": "prod"
     }
   }]
